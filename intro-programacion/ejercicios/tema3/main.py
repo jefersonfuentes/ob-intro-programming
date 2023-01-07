@@ -6,7 +6,7 @@ def sumar(a, b, c):
 
 class Coche:
     # Atributo del objeto
-    numPuertas = 0
+    numPuertas = 4
     
     # Método del objeto que incrementa el número de puertas
     def addPuerta(self):
