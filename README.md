@@ -1,2 +1,3 @@
-# OpenBootCamp
-OpenBootCamp Introduction to Programming 
+# Introduction to programming
+
+Contains introductory programming exercises for the OpenBootCamp course.
