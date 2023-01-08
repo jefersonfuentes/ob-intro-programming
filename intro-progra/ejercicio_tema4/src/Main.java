@@ -15,23 +15,22 @@ public class Main {
             System.out.println("");
         }
 
-        System.out.println("");
-
         // While
         int numeroWhile = 0;
-        while (numeroWhile < 3){
-            System.out.println(numeroWhile);
-            numeroWhile = numeroWhile + 1;
+        while(numeroWhile < 3){
+            System.out.println("La variable numeroWhile ahora vale: " + numeroWhile);
+            numeroWhile++;
+
         }
 
         System.out.println("");
 
-        // Do While
-        int numeroDoWhile = 0;
-        do {
-            System.out.println(numeroDoWhile);
-            numeroDoWhile = numeroDoWhile + 1;
-        }while (numeroDoWhile < 3);
+        // Do while
+        int numeroDoWhile = 3;
+        do{
+            numeroDoWhile++;
+            System.out.println("La variable numeroDoWhile ahora vale: " + numeroDoWhile);
+        }while(numeroDoWhile < 3); // Al no cumplirse la condición, solo entra en el bucle una vez
 
         System.out.println("");
 
