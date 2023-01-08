@@ -1,2 +1,2 @@
 # OpenBootCamp
-Following the FullStack Path in OpenBootCamp
+OpenBootCamp Introduction to Programming 
