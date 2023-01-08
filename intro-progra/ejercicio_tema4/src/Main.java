@@ -6,9 +6,13 @@ public class Main {
         int numeroIf = 7;
         if (numeroIf > 0){
             System.out.println("El número " + numeroIf + " es positivo");
-        }
-        else {
+            System.out.println("");
+        } else if (numeroIf < 0) {
             System.out.printf("El número " + numeroIf + " es negativo");
+            System.out.println("");
+        } else {
+            System.out.printf("El número es " + numeroIf);
+            System.out.println("");
         }
 
         System.out.println("");
